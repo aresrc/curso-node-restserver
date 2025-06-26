@@ -6,13 +6,13 @@ const usuariosGet = (req = request, res = response) => {
     });
 }
 
-const usuariosPut = (req, res = response) => {
+const usuariosPut = (req = request, res = response) => {
     res.json({
         msg: 'put API - controlador'
     });
 }
 
-const usuariosPost = (req, res = response) => {
+const usuariosPost = (req = request, res = response) => {
     const body = req.body;
 
     res.json({
@@ -21,7 +21,7 @@ const usuariosPost = (req, res = response) => {
     });
 }
 
-const usuariosDelete = (req, res = response) => {
+const usuariosDelete = (req = request, res = response) => {
     res.json({
         msg: 'delete API - controlador'
     });
