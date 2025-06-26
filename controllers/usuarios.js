@@ -10,7 +10,8 @@ const usuariosGet = (req = request, res = response) => {
     });
 }
 
-const usuariosPut = (req = request, res = response) => {
+const usuariosPut = (req, res = response) => {
+    const { id } = req.params;
     res.json({
         msg: 'put API - controlador',
         id
