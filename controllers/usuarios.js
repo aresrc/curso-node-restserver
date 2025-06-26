@@ -12,7 +12,8 @@ const usuariosGet = (req = request, res = response) => {
 
 const usuariosPut = (req, res = response) => {
     res.json({
-        msg: 'put API - controlador'
+        msg: 'put API - controlador',
+        id
     });
 }
 
